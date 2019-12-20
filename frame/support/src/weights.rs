@@ -25,7 +25,7 @@
 //! $x]` attribute. In this snipped, `$x` can be any user provided struct that implements the
 //! two aforementioned traits.
 //!
-//! Substrate then bundles then output information of the two traits into [`DispatchInfo`] struct
+//! Substrate then bundles the output information of the two traits into [`DispatchInfo`] struct
 //! and provides it by implementing the [`GetDispatchInfo`] for all `Call` variants, and opaque
 //! extrinsic types.
 //!
